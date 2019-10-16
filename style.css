@@ -1,20 +1,21 @@
 body {
-	background-color: rgb(235, 235, 235);
+	background-color: #c8dad3;
 	color: black;
-	font-family: times;
+	font-family: 'Times';
 }
 
 h1 {
-	color: orange;
-	font-family: 'Great Vibes', cursive;
-	font-weight: 100;
-	letter-spacing: 5px;
-	font-size: 40px;
+	color: #63707e;
+	font-family: 'Courgette', cursive;
+	font-weight: 10px;
+	letter-spacing: 4px;
+	font-size: 20px;
+	padding: 3px;
 }
 
 h2 {
-	color: purple;
-	font-family: Arial;
+	color: #63707e;
+	font-family: 'Courgette';
 	font-weight: 100;
 	letter-spacing: 5px;
 	font-size: 20px;
@@ -50,11 +51,14 @@ a:hover {
 
 
 .card-grey {
-	background-color: grey;
-	padding: 40px;
+	background-color: #f2f6f5;
+	padding-top: 20px;
+	padding-bottom: 40px;	
+	padding-left: 20px;
+	padding-right: 20px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
     border-radius: 4px; 
-    margin: 20px 0px;
+    margin: 30px 0px;
     text-align: center;
     
 }
@@ -62,18 +66,19 @@ a:hover {
 #img-circle {
 	width: 200px;
 	border-radius: 75%;
+	padding: 20px;
 }
 
 .btn-green {
-	background-color: blue;
+	background-color: #002f35;
 	color: white;
 	padding: 15px 20px;
 	border-radius: 4px;
 }
 
 .btn-green:hover {
-	background-color: pink;
-	color: grey;
+	background-color: #5c7658;
+	color: white;
 
 }
 
@@ -85,19 +90,25 @@ a:hover {
 
 .list-inline li {
 	display: inline;
-	padding: 10px;
+	padding: 5px;
 }
 
 .list-inline i {
-	font-size: 50px;
-	color: yellow;
+	font-size: 30px;
+	color: #002f35;
 }
 
 .list-inline i:hover {
-	color: green;
+	color: #5c7658;
 }
 
 #introduction p {
 	margin-bottom: 40px;
 
+}
+
+.list-none {
+	list-style: none;
+	text-align: justify;
+	padding-left: 0px;
 }
